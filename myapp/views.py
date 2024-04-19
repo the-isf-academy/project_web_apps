@@ -6,5 +6,5 @@ from django.utils import timezone
 #### class based views
 
 class IndexView(TemplateView):
-    template_name = "index.html"
+    template_name = "myapp/index.html"
 
