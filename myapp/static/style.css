@@ -1,11 +1,16 @@
+/* fonts from  https://fonts.google.com/ */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Zilla+Slab:wght@400;600&display=swap');
 
 :root {
     --color1: rgb(0, 0, 0);
     --color2: rgb(89, 103, 83);
-    --color3: rgb(255, 255, 255);
+    --color3: rgb(105, 139, 225);
 }
   
+body{
+    background-color: var(--color3);
+}
 
 h1{
     font-family: 'Open Sans';
@@ -14,9 +19,4 @@ h1{
     color: var(--color1);
 }
 
-body{
-    background-color: var(--color3);
-    font-family: 'Open Sans', sans-serif;
-
-}
 

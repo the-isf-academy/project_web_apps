@@ -11,6 +11,14 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
+
+# FOR HOSTING ISF SERVERS
+# BASE_DIR = Path(__file__).resolve().parent.parent
+# CSRF_TRUSTED_ORIGINS = ["http://sycs.student.isf.edu.hk"]
+# STATIC_URL = '<custompath>/static/'  #change custompath
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
